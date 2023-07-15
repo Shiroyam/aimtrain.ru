@@ -1,0 +1,60 @@
+.button {
+  cursor: pointer;
+
+  box-sizing: border-box;
+  padding: 0.5rem 1.125rem;
+
+  font-weight: 500;
+  
+  border: none;
+  border-radius: 0.3rem;
+
+  transition:  all 100ms ease-out;
+
+  &:active {
+    scale: 0.99;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:focus {
+    outline: none;
+  }
+  
+  &:focus-visible {
+    outline: 0.1rem solid var(--color-primary);
+    outline-offset: 0.1rem;
+  }
+
+  .icon-left {
+    margin-right: 1.125rem;
+  }
+
+  .icon-right {
+    margin-left: 1.125rem;
+  }
+}
+
+.filled {
+  color: var(--color-text);
+  background: var(--color-primary);
+}
+
+.outline {
+  color: var(--color-primary);
+  background: transparent;
+  border: 0.063rem solid var(--color-primary);
+}
+
+.subtle {
+  color: var(--color-primary);
+  background: transparent;
+}
+
+.default {
+  color: var(--color-text);
+  background-color: var(--color-bg-menu);
+  border: 0.063rem solid var(--color-border);
+}
