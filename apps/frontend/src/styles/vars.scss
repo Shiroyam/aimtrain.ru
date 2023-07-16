@@ -5,6 +5,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --color-primary: #6613EE;
+    --color-primary-opacity: rgb(40% 7% 93% / 10%);
     --color-bg: #1A1A20;
     --color-bg-menu: #1D1D21;
     --color-text: #FFF;
@@ -16,6 +17,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --color-primary: #6613EE;
+    --color-primary-opacity: rgb(40% 7% 93% / 10%);
     --color-bg: #ECECF3;
     --color-bg-menu: #C7C7CE;
     --color-text: #000;
@@ -26,6 +28,7 @@
 
 body[data-theme="dark"] {
   --color-primary: #6613EE;
+  --color-primary-opacity: rgb(40% 7% 93% / 10%);
   --color-bg: #1A1A20;
   --color-bg-menu: #1D1D21;
   --color-text: #FFF;
@@ -35,6 +38,7 @@ body[data-theme="dark"] {
 
 body[data-theme="light"] {
   --color-primary: #6613EE;
+  --color-primary-opacity: rgb(40% 7% 93% / 10%);
   --color-bg: #ECECF3;
   --color-bg-menu: #C7C7CE;
   --color-text: #000;
