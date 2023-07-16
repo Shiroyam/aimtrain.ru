@@ -4,6 +4,7 @@
   box-sizing: border-box;
   padding: 0.5rem 1.125rem;
 
+  font-family: JetBrainsRegular, sans-serif;
   font-weight: 500;
   
   border: none;
@@ -49,7 +50,7 @@
 }
 
 .subtle {
-  color: var(--color-primary);
+  color: var(--color-text);
   background: transparent;
 }
 
