@@ -1,8 +1,9 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import { settingsReducer } from "./slices";
+import { settingsReducer, statReducer } from "./slices";
 
 const rootReducer = combineReducers({
   settings: settingsReducer,
+  stat: statReducer,
 });
 
 const storeSetup = () =>
