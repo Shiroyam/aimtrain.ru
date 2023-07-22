@@ -1,6 +1,9 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
+import { settingsReducer } from "./slices";
 
-const rootReducer = combineReducers({});
+const rootReducer = combineReducers({
+  settings: settingsReducer,
+});
 
 const storeSetup = () =>
   configureStore({
