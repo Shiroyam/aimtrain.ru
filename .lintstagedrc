@@ -3,7 +3,7 @@
     "prettier --write",
     "eslint --fix"
   ],
-  "*.scss": [
+  "*.(css|scss)": [
     "stylelint --fix"
   ],
   "*.{md,json}": [
