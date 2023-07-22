@@ -1,0 +1,14 @@
+.stat {
+  display: flex;
+  gap: 5rem;
+
+  .hits {
+    font-size: 2rem;
+    color: var(--color-primary);
+  }
+
+  .miss {
+    font-size: 2rem;
+    color: var(--color-error);
+  } 
+}
