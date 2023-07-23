@@ -2,6 +2,11 @@
   display: flex;
   gap: 5rem;
 
+  .time {
+    font-size: 2rem;
+    color: var(--color-text);
+  }
+
   .hits {
     font-size: 2rem;
     color: var(--color-primary);
