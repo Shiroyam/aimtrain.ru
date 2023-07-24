@@ -1,0 +1,52 @@
+.accordion {
+  width: 100%;
+  padding-bottom: 0.5rem;
+  color: var(--color-sub-text);
+  border-bottom: 0.1rem solid var(--color-border);
+
+  .button {
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 0;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-sub-text);
+
+    background-color: transparent;
+    border: none;
+
+    .svg.active {
+      transform: rotate();
+      transition:  500ms ease;
+    }
+
+    .svg.inactive {
+      transform: rotate(180deg);
+      transition:  500ms ease;
+    }
+  }
+
+  .content.active{
+    display: block;
+    height: auto;
+    opacity: 1;
+  }
+  
+  .content{
+    display: none;
+
+    height: 0;
+    margin: 1rem 0;
+    padding: 0 1rem;
+
+    opacity: 0;
+
+    transition: 600ms ease;
+  }
+}
