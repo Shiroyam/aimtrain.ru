@@ -1,4 +1,10 @@
 /*
+ * Min and max dot size
+ */
+export const minSizeDot = 1;
+export const maxSizeDot = 32;
+
+/*
  * Delay for render dot.
  */
 export const DELAY = 500;
