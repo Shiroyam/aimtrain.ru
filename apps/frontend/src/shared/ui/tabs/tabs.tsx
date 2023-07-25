@@ -3,12 +3,16 @@ import styles from "./tabs.module.scss";
 import cn from "classnames";
 
 export interface TabsProps {
+  /** Apply additional styles to tabs */
   children?: React.ReactElement<TabProps>[];
 
+  /** Spacing between tabs (in pixels) */
   spacing?: number;
 
+  /** Content to be rendered within the tabs */
   className?: string;
 
+  /** Index of the active tab in the children array */
   active?: number;
 }
 
