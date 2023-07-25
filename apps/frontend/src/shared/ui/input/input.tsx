@@ -4,7 +4,7 @@ import cn from "classnames";
 
 export interface InputProps
   extends DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement> {
-  /** Apply additional styles to checkbox */
+  /** Apply additional styles to input */
   className?: string;
 
   /** Input theme */
