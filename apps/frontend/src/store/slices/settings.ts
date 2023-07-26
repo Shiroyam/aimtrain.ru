@@ -9,6 +9,8 @@ interface State {
 
   delay: number;
 
+  sizeDot: number;
+
   count: number[];
   activeCountIndex: number;
   activeCount: number;
@@ -21,6 +23,8 @@ const initialState: State = {
   colors: COLORS,
 
   delay: DELAY,
+
+  sizeDot: 20,
 
   count: COUNT,
   activeCountIndex: 0,
@@ -37,6 +41,15 @@ const settings = createSlice({
     onChangeCount: (state, { payload }: PayloadAction<number>) => {
       state.activeCount = payload;
       state.activeCountIndex = COUNT.indexOf(payload);
+    },
+    onChangeColor: (state, { payload }: PayloadAction<string[] | string>) => {
+      state.colors = payload;
+    },
+    onChangeSizeDot: (state, { payload }: PayloadAction<number>) => {
+      state.sizeDot = payload;
+    },
+    onChangeDelay: (state, { payload }: PayloadAction<number>) => {
+      state.delay = payload;
     },
   },
 });
