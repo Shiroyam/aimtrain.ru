@@ -1,13 +1,7 @@
 .dot {
   position: absolute;
   z-index: 1;
-
-  width: 1.5rem;
-  height: 1.5rem;
-
-  background-color: var(--color-primary);
   border-radius: 50%;
-
   animation: 500ms show ease;
 
   @keyframes show {
