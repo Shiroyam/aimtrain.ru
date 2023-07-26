@@ -3,6 +3,7 @@ import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 interface Stat {
   hits: number;
   miss: number;
+  time: number;
 }
 
 interface State {
@@ -13,11 +14,12 @@ const initialState: State = {
   stat: {
     hits: 0,
     miss: 0,
+    time: 0,
   },
 };
 
 const stat = createSlice({
-  name: "mods",
+  name: "stat",
   initialState,
   reducers: {
     setStat: (state, { payload }: PayloadAction<Stat>) => {
@@ -27,6 +29,7 @@ const stat = createSlice({
       state.stat = {
         hits: 0,
         miss: 0,
+        time: 0,
       };
     },
   },
