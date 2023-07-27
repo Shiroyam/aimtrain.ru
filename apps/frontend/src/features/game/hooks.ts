@@ -75,7 +75,6 @@ export const useAim = (
    * */
   const generatorDots = () => {
     let i = 0;
-    console.log(colors);
 
     const interval = setInterval(() => {
       setDots((prev) => [
