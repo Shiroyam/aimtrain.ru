@@ -33,10 +33,10 @@ export const useAim = (
   const [time, setTime] = useState(0);
 
   //The state is needed to store the id interval to clear it when stopped
-  const [intervalRenderId, setIntervalRenderId] = useState<undefined | number>();
+  const [intervalRenderId, setIntervalRenderId] = useState<NodeJS.Timer>();
 
   //The state is needed to store the id stopwatch to clear it when stopped
-  const [intervalTimeId, setIntervalTimerId] = useState<undefined | number>();
+  const [intervalTimeId, setIntervalTimerId] = useState<NodeJS.Timer>();
 
   /**
    * The function starts the stopwatch
