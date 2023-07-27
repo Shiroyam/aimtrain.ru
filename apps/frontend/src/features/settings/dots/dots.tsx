@@ -1,7 +1,35 @@
 import { Accordion, Input, Select } from "shared/ui";
 import { Article } from "components";
 import { settingsActions, useAppDispatch, useAppSelector } from "store";
-import { maxSizeDot, minSizeDot } from "shared/config";
+import { COLORS, maxSizeDot, minSizeDot } from "shared/config";
+
+const colors = [
+  {
+    id: 0,
+    name: "all 🔵🔴🟣🟡",
+    value: COLORS,
+  },
+  {
+    id: 1,
+    name: "yellow 🟡",
+    value: "#ECDB54",
+  },
+  {
+    id: 2,
+    name: "purple 🟣",
+    value: "6B5B95",
+  },
+  {
+    id: 3,
+    name: "blue 🔵",
+    value: "#6F9FD8",
+  },
+  {
+    id: 4,
+    name: "red 🔴",
+    value: "#944743",
+  },
+];
 
 export const Dots = () => {
   const settings = useAppSelector((state) => state.settings);
@@ -14,7 +42,8 @@ export const Dots = () => {
   };
 
   const handleChangeSelect = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    dispatch(settingsActions.onChangeColor(e.target.value));
+    const value: string | string[] = JSON.parse(e.target.value);
+    dispatch(settingsActions.onChangeColor(value));
   };
 
   return (
@@ -32,12 +61,12 @@ export const Dots = () => {
 
       <Article title="color">
         <span>Change the dot color</span>
-        <Select onChange={handleChangeSelect}>
-          <option value={settings.colors}>all 🔵🔴🟣🟡</option>
-          <option value="#ECDB54">yellow 🟡</option>
-          <option value="#6B5B95">purple 🟣</option>
-          <option value="#6F9FD8">blue 🔵</option>
-          <option value="#944743">red 🔴</option>
+        <Select value={JSON.stringify(settings.colors)} onChange={handleChangeSelect}>
+          {colors.map(({ id, name, value }) => (
+            <option key={id} value={JSON.stringify(value)}>
+              {name}
+            </option>
+          ))}
         </Select>
       </Article>
     </Accordion>
