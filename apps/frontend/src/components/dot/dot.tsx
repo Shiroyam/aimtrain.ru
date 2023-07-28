@@ -1,6 +1,6 @@
 import styles from "./dot.module.scss";
 
-interface DotProps {
+export interface DotProps {
   x?: number;
   y?: number;
   size: number;
