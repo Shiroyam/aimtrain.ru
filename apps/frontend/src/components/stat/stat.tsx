@@ -1,7 +1,7 @@
 import cn from "classnames";
 import styles from "./stat.module.scss";
 
-interface StatProps {
+export interface StatProps {
   hits: number;
   miss: number;
   time: number;
