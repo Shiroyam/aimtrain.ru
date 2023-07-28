@@ -1,6 +1,6 @@
 import styles from "./line.module.scss";
 
-interface LineFrameProps {
+export interface LineFrameProps {
   children?: React.ReactNode;
   onMiss?: () => void;
 }
