@@ -1,6 +1,6 @@
 import styles from "./classic.module.scss";
 
-interface ClassicFrameProps {
+export interface ClassicFrameProps {
   children?: React.ReactNode;
   onMiss?: () => void;
 }
