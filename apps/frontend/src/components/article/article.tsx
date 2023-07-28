@@ -1,6 +1,6 @@
 import styles from "./article.module.scss";
 
-interface ArticleProps {
+export interface ArticleProps {
   title?: string;
   children?: React.ReactNode;
 }
