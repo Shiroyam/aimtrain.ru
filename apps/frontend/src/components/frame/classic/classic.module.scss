@@ -1,0 +1,16 @@
+.frame {
+  position: relative;
+
+  width: 57.5rem;
+  height: 37.5rem;
+
+  border: 0.063rem solid var(--color-border);
+  border-radius: 0.625rem;
+
+  animation: 0.5s show ease;
+
+  @keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}

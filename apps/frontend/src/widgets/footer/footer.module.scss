@@ -1,0 +1,36 @@
+.footer {
+  box-sizing: border-box;
+  width: 100%;
+  height: 5rem;
+  padding: 1rem;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 87.5rem;
+    height: 100%;
+    margin: 0 auto;
+
+    .ul {
+      display: flex;
+      gap: 2rem;
+
+      margin: 0;
+      padding: 0;
+
+      list-style: none;
+
+      .git {
+        fill: var(--color-sub-text);
+      }
+    
+      .license {
+        fill: var(--color-bg);
+        stroke: var(--color-sub-text);
+      }
+    }
+  }
+}

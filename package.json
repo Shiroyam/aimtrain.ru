@@ -10,7 +10,9 @@
     "dev": "turbo run dev",
     "build": "turbo run build",
     "prepare": "husky install",
-    "clean": "turbo run clean && rm -rf node_modules"
+    "clean": "turbo run clean && rm -rf node_modules",
+    "storybook:dev": "turbo run storybook:dev --parallel",
+    "storybook:build": "turbo run storybook:build --parallel"
   },
   "devDependencies": {
     "husky": "8.0.3",

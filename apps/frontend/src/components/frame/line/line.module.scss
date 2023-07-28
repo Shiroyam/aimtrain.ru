@@ -1,0 +1,26 @@
+.frame {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 57.5rem;
+  height: 5rem;
+  margin-bottom: 2rem;
+
+  .line {
+    position: absolute;
+    width: 100%;
+    height: 0.0625rem;
+    background-color: var(--color-border);
+  }
+
+  .wall {
+    position: absolute;
+    width: 0.0625rem;
+    height: 1rem;
+    background-color: var(--color-border);
+  }
+}

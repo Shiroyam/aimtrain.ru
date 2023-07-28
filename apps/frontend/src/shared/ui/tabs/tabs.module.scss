@@ -1,0 +1,28 @@
+.tabs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tab {
+  color: var(--color-text);
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    scale: 0.99;
+  }
+}
+
+.li {
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+.active {
+  color: var(--color-primary);
+  background-color: var(--color-primary-opacity);
+}
