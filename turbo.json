@@ -5,6 +5,15 @@
       "cache": false,
       "dependsOn": ["^build"]
     },
+    "test": {
+      "cache": false,
+      "outputs": ["coverage/**"],
+      "dependsOn": []
+    },
+    "test:dev": {
+      "cache": false
+    },
+    "lint": {},
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
@@ -14,9 +23,6 @@
     },
     "storybook:build": {
       "outputs": ["storybook-static/**"]
-    },
-    "storybook:move": {
-      "cache": false
     }
   }
 }

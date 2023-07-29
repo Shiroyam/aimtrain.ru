@@ -13,8 +13,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
-    project: true,
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+    project: ['./tsconfig.json'],
     tsconfigRootDir: __dirname,
   },
   plugins: ["react-refresh", "prettier"],
