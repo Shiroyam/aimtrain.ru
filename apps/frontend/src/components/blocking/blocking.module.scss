@@ -1,0 +1,19 @@
+.blocking {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  p {
+    max-width: 30rem;
+    font-size: 2rem;
+    color: var(--color-text);
+    text-align: center;
+  }
+}
+
+@media (width >= 940px) {
+  .blocking {
+    display: none;
+  }
+}

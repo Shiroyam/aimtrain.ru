@@ -1,0 +1,11 @@
+.dot {
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  animation: 500ms show ease;
+
+  @keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}

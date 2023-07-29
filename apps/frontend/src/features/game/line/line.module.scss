@@ -1,0 +1,17 @@
+.stat {
+  margin-top: 12.5%;
+}
+
+.button {
+  animation: 1s show ease;
+
+  @keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}
+
+
+.visibility {
+  visibility: hidden;
+}

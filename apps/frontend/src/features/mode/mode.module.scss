@@ -1,0 +1,32 @@
+.menu {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0.3rem;
+
+  background: var(--color-bg-menu);
+
+  animation: 1s show ease;
+
+  border-Radius: 0.3rem;
+
+  .wall {
+    width: 0.1rem;
+    height: 2rem;
+    background-color: var(--color-border);
+  }
+
+  .tab {
+    animation: 1s show ease;
+  }
+  
+  @keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}
