@@ -2,7 +2,7 @@
 <br>
 <p align="center">
    <img
-        alt="aimtraine"
+        alt="aimtrain"
         src="https://lh3.googleusercontent.com/pw/AIL4fc_JbfwvoAKf6eClgSSI55GbXVpYQlsejBCxOFIBVdxTjbmXaqu5QjAJ6e1vlc6m6s1olhPVTCkQRdmpGKbrnC7MNqRaZU6gZK4Rt8dfuTQFponU74vKLZFW4XJ4q5-iH0xceKg360aMELGeMHiQHmmk=w548-h190-s-no?authuser=0"
     />
 
