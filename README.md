@@ -3,7 +3,7 @@
 <p align="center">
    <img
         alt="aimtrain"
-        src="https://lh3.googleusercontent.com/pw/AIL4fc_JbfwvoAKf6eClgSSI55GbXVpYQlsejBCxOFIBVdxTjbmXaqu5QjAJ6e1vlc6m6s1olhPVTCkQRdmpGKbrnC7MNqRaZU6gZK4Rt8dfuTQFponU74vKLZFW4XJ4q5-iH0xceKg360aMELGeMHiQHmmk=w548-h190-s-no?authuser=0"
+        src="https://lh3.googleusercontent.com/pw/AIL4fc9ByaI7rk06WDWIdLW3r9j6BeutgF1amR2X2prhgt0pLzuUy1Bs25ExxDLYijgLhD4yzlojF7bAJs9L-zwjaBrsQmpyTrimXdT77-TKwZFRSa23ATMo_t-9JLa6RpHrBkzwKhvlg8K5ndqn4gKrtlbM=w650-h190-s-no?authuser=0"
     />
 
   <p align="center">
