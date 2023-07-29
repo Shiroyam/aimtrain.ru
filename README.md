@@ -17,3 +17,23 @@
  - 🏋️ Many training modes.
  - 🏺 User-friendly interface.
  - 🎨 Themes.
+
+## How to run the project localhost ?
+
+Install with [npm](https://www.npmjs.com/) or [pnpm](https://pnpm.io/)
+
+```bash
+$ npm install
+# or
+$ pnpm install
+```
+
+and run with [npm](https://www.npmjs.com/) or [pnpm](https://pnpm.io/)
+
+```bash
+$ npm run dev
+# or
+$ pnpm run dev
+```
+Runs the app in the development mode.
+Open http://localhost:5173/ to view it in your browse
