@@ -24,7 +24,8 @@
     "classnames": "2.3.2",
     "vite-plugin-svgr": "3.2.0",
     "react-error-boundary": "4.0.10",
-    "redux-persist": "6.0.0"
+    "redux-persist": "6.0.0",
+    "@vercel/analytics": "1.0.1"
   },
   "devDependencies": {
     "@types/compose-function": "0.0.30",
