@@ -8,12 +8,14 @@ import React from "react";
 import "./styles/index.scss";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Provider store={store}>
-        <AppWithErrorBoundary />
-        <Analytics />
-      </Provider>
-    </BrowserRouter>
-  </React.StrictMode>,
+  <>
+    <React.StrictMode>
+      <BrowserRouter>
+        <Provider store={store}>
+          <AppWithErrorBoundary />
+        </Provider>
+      </BrowserRouter>
+    </React.StrictMode>
+    <Analytics />
+  </>,
 );
