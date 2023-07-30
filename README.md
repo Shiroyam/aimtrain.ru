@@ -8,7 +8,18 @@
 
   <p align="center">
     <b>🎯 Website with a minimalist design for aim testing.</b>
-  </p>
+
+<p align="center">
+  <a href="https://github.com/shiroyam/aimtrain.ru/actions">
+    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/shiroyam/aimtrain.ru/check.yml?branch=master">
+  </a>
+   <a href="https://www.aimtrain.ru/">
+    <img alt="Deploy status" src="https://vercelbadge.vercel.app/api/shiroyam/aimtrain.ru?style=flat">
+  </a>
+   <a href="https://aimtrain-stoorybook-ovpygg5pm-shiroyam.vercel.app/?path=/story/article--default">
+    <img alt="Deploy status" src="https://img.shields.io/badge/storybook-passing?color=FF4785">
+  </a>
+</p>
 </p>
 
 ## Features
