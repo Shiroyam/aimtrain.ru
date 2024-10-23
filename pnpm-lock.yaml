@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      react-yandex-metrika:
+        specifier: ^2.6.0
+        version: 2.6.0(prop-types@15.8.1)(react@18.2.0)
     devDependencies:
       husky:
         specifier: 8.0.3
@@ -8711,7 +8715,6 @@ packages:
   /object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
-    dev: true
 
   /object-inspect@1.12.3:
     resolution: {integrity: sha512-geUvdk7c+eizMNUDkRpW1wJwgfOiOeHbxBR/hLXK1aT6zmVSO0jsQcs7fj6MGw89jC/cjGfLcNOrtMYtGqm81g==}
@@ -9213,7 +9216,6 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       react-is: 16.13.1
-    dev: true
 
   /proxy-addr@2.0.7:
     resolution: {integrity: sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==}
@@ -9497,6 +9499,16 @@ packages:
       react: '>=16.8'
     dependencies:
       '@remix-run/router': 1.7.1
+      react: 18.2.0
+    dev: false
+
+  /react-yandex-metrika@2.6.0(prop-types@15.8.1)(react@18.2.0):
+    resolution: {integrity: sha512-8K4wExsNZtY3DTxh1G8a+zWH9Pg8fw23MJcoJ4I/562qrHRnh7L5nteq3lnNL58dnNQbuuHIRoGgMjIo+r1GjA==}
+    peerDependencies:
+      prop-types: '*'
+      react: '*'
+    dependencies:
+      prop-types: 15.8.1
       react: 18.2.0
     dev: false
 
