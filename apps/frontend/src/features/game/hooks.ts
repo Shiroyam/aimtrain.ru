@@ -123,7 +123,7 @@ export const useAim = (
     startStopwatch();
     generatorDots();
 
-    ym("click-start", "reachGoal");
+    ym("reachGoal", "click-start");
   };
 
   return { start, dots, result, miss, time, onStart, onReset, onMiss, onHit };

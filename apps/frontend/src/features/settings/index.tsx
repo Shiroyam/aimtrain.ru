@@ -11,7 +11,7 @@ export const Settings = () => {
       <Behavior />
       <Appearance />
       <Button onClick={() => ym("reachGoal", "testclick")} variant="subtle">
-        Тест
+        Тест1
       </Button>
     </>
   );

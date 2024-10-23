@@ -9,8 +9,8 @@ export const Mode = () => {
 
   const handleChangeMode = (id: number) => {
     dispatch(settingsActions.onChangeMode(id));
-    ym("click-line", "reachGoal");
-    ym("click-classic", "reachGoal");
+    ym("reachGoal", "click-line");
+    ym("reachGoal", "click-classic");
   };
 
   const handleChangeCount = (count: number) => {
