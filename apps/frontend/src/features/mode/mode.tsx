@@ -1,7 +1,6 @@
 import { Button, Tab, Tabs } from "shared/ui";
 import { settingsActions, useAppDispatch, useAppSelector } from "store";
 import styles from "./mode.module.scss";
-import ym from "react-yandex-metrika";
 
 export const Mode = () => {
   const settings = useAppSelector((state) => state.settings);
@@ -9,8 +8,12 @@ export const Mode = () => {
 
   const handleChangeMode = (id: number) => {
     dispatch(settingsActions.onChangeMode(id));
-    ym("reachGoal", "click-line");
-    ym("reachGoal", "click-classic");
+    // eslint-disable-next-line
+    //@ts-ignore
+    window.ym(98707984, "reachGoal", "click-line");
+    // eslint-disable-next-line
+    //@ts-ignore
+    window.ym(98707984, "reachGoal", "click-classic");
   };
 
   const handleChangeCount = (count: number) => {

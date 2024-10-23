@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { getRandom } from "shared/utils";
 import { SIZE } from "shared/config";
-import ym from "react-yandex-metrika";
 
 interface Dots {
   x: number;
@@ -123,7 +122,9 @@ export const useAim = (
     startStopwatch();
     generatorDots();
 
-    ym("reachGoal", "click-start");
+    // eslint-disable-next-line
+    //@ts-ignore
+    window.ym(98707984, "reachGoal", "click-start");
   };
 
   return { start, dots, result, miss, time, onStart, onReset, onMiss, onHit };
