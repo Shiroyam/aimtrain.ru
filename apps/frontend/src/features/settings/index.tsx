@@ -16,7 +16,7 @@ export const Settings = () => {
       <Behavior />
       <Appearance />
       <Button onClick={onClick} variant="subtle">
-        Тест1
+        Тест12
       </Button>
     </>
   );
