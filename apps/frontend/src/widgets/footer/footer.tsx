@@ -21,6 +21,20 @@ export const Footer = () => {
             </a>
           </li>
         </ul>
+        <a
+          href="https://metrika.yandex.ru/stat/?id=98707984&amp;from=informer"
+          target="_blank"
+          rel="nofollow"
+        >
+          <img
+            src="https://metrika-informer.com/informer/98707984/2_0_FFFFFFFF_EFEFEFFF_0_pageviews"
+            alt="Яндекс.Метрика"
+            title="Яндекс.Метрика: данные за сегодня (просмотры)"
+            className="ym-advanced-informer"
+            data-cid="98707984"
+            data-lang="ru"
+          />
+        </a>
       </div>
     </footer>
   );

@@ -13,6 +13,11 @@ const link = [
     to: "/settings",
     name: "Settings",
   },
+  {
+    id: 2,
+    to: "/form",
+    name: "Form",
+  },
 ];
 
 export const Header = () => {
